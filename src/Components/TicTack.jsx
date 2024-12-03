@@ -86,8 +86,8 @@ let [count,setCount] = useState(0);
 const toggle = (e,num) => {
 
     if(lock || data[num] !== "") {
-        bhen.play();
-        alert("Acha Bhen ke Laund 😡")
+        // bhen.play();
+        // alert("Acha Bhen ke Laund 😡")
         return 0;
     }
 
